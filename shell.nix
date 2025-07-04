@@ -5,14 +5,12 @@
 let
   rutaPostgre = "./.postgre";
   rutaConfiguracionPostgre = "./nix/postgre";
-  usuarioPostgre = "anfigeno";
 
   parametroComunes = {
     inherit
       pkgs
       rutaPostgre
       rutaConfiguracionPostgre
-      usuarioPostgre
       ;
   };
 
