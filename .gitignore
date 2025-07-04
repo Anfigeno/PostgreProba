@@ -1,2 +1,3 @@
 .postgre/
 nix/postgre/*
+.direnv/
